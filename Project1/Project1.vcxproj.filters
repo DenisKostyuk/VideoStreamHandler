@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="IDL">
+      <UniqueIdentifier>{50437c58-92c8-48ac-a6f8-cb6c5a15efeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{5795a683-f1e0-4393-9a8c-312b4de7fe36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\ArgParse">
+      <UniqueIdentifier>{2cc0366a-769a-495d-a84c-3ad78b9c8f35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_arguments.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="get_arguments.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_os.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\XML\DBLPrimitives.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\XML\IndexMap.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\XML\ObjectsMap.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\XML\XMLAdapterCPP.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\XML\XMLNodeEx.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\XML\XMLParseM.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\XML\XMLUtils.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\SyncBase.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\threads.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\Utils.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\wrappers.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\blob.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\Containers.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\Diagnostics.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\Functions.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\Guards.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\Macros.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\Parsers.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\Perf.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\WinAPI\Persist.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Devices\MPropsImpl.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Devices\MSourceImpl.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Devices\MTimecode.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Devices\MTimer.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Devices\MCaptureBase.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Devices\MClock.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Devices\MCounters.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Devices\MFDeviceImpl.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Devices\MFormatImpl.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\mcalls.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\mcallsbase.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\MCreator.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\MDeqAnc.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\Medialooks_CLSID.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\MFunctions.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\MHelpers.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\MLog_P7.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\DSAllocators.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\DSDebug.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\DSDefines.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\DSGuard.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\DSGuids.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\DSParsers.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\DSStdAfx.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\DSTypes.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\DSVideo.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!Include\Base\FixedBuffer.h">
+      <Filter>IDL</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVideoLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="MFormats.idl">
+      <Filter>IDL</Filter>
+    </Midl>
+    <Midl Include="..\!Include\IDL\MInterfaces.idl">
+      <Filter>IDL</Filter>
+    </Midl>
+    <Midl Include="..\!Include\IDL\MPlatform.idl">
+      <Filter>IDL</Filter>
+    </Midl>
+    <Midl Include="..\!Include\IDL\MDefines.idl">
+      <Filter>IDL</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\!Include\IDL\CMakeLists.txt">
+      <Filter>IDL</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
