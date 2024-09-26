@@ -76,8 +76,6 @@ To run this project, you will need:
 
 
 
-(Include screenshots of the application in action here)
-
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
