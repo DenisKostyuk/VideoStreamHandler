@@ -65,6 +65,17 @@ To run this project, you will need:
 - The **OpenCV** library is used within the **C++ DLL** to draw the captured video frames directly onto the window created by the **C#** form.
 
 ### Screenshots
+- Home page of the application
+![image](https://github.com/user-attachments/assets/1b15ec16-ae59-4d0d-83a4-d0553bba5bbe)
+
+- Live webcam
+![image](https://github.com/user-attachments/assets/274d561d-d5b0-4605-a53d-a060c250dbd3)
+
+- Video streaming
+  ![image](https://github.com/user-attachments/assets/3e5940c7-846b-4f9e-8d5d-23db43e59479)
+
+
+
 (Include screenshots of the application in action here)
 
 ### License
